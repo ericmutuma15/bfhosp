@@ -1,14 +1,21 @@
+import IMG from '../assets/clinic.jpeg'
+
 export default function Hero() {
-    return (
-      <section className="bg-blue-50 text-center py-12 px-4">
-        <h2 className="text-3xl font-bold text-blue-800 mb-2">Welcome to British Clinic Machakos</h2>
-        <p className="mb-6">Holistic, accessible healthcare—“Until everyone is well.”</p>
+  return (
+    <section className="w-full bg-blue-50">
+      <div className="max-w-screen-2xl mx-auto text-center px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-800 mb-4">
+          Welcome to British Clinic Machakos
+        </h2>
+        <p className="text-base sm:text-lg md:text-xl mb-6">
+          Holistic, accessible healthcare—“Until everyone is well.”
+        </p>
         <img
-          src="https://via.placeholder.com/800x300?text=Hospital+Building"
+          src={IMG}
           alt="Hospital Building"
-          className="mx-auto rounded shadow"
+          className="w-full max-w-4xl h-auto mx-auto rounded-lg shadow-lg"
         />
-      </section>
-    )
-  }
-  
+      </div>
+    </section>
+  )
+}
