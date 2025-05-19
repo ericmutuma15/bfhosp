@@ -7,20 +7,26 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    // App container forced to full width
-    <div className="w-full">
-      <Header />
+    // Hide any accidental horizontal overflow
+    <div className="overflow-x-hidden">
+      {/* 
+        Center the content, add horizontal padding:
+        - px-4 on all screens
+        - sm:px-6 once ≥640px
+        - lg:px-8 once ≥1024px
+        Constrain max width to ultra-wide monitors
+      */}
+      <div className="w-full mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
+        <Header />
 
-      {/* Hero already uses responsive padding */}
-      <Hero />
+        <Hero />
 
-      {/* Services grid will adapt: 1 column on mobile, 2 on sm, 3 on md, 4 on lg+ */}
-      <Services />
+        <Services />
 
-      {/* Contact section full-width by default */}
-      <Contact />
+        <Contact />
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   )
 }

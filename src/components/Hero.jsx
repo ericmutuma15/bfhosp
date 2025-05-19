@@ -1,4 +1,5 @@
-import IMG from '../assets/clinic.jpeg'
+import React from 'react'
+import IMG from '../assets/hero.jpeg'
 
 export default function Hero() {
   return (
@@ -15,6 +16,22 @@ export default function Hero() {
           alt="Hospital Building"
           className="w-full max-w-4xl h-auto mx-auto rounded-lg shadow-lg"
         />
+
+        {/* Call-to-action buttons */}
+        <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="https://brookeofhealing.vercel.app/waiting"
+            className="inline-block px-6 py-3 bg-primary text-black font-medium rounded-lg shadow hover:bg-blue-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 transition"
+          >
+            Book Appointment
+          </a>
+          <a
+            href="https://brookeofhealing.vercel.app/waiting"
+            className="inline-block px-6 py-3 border-2 border-primary bg-primary text-black font-medium rounded-lg shadow hover:bg-blue-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 transition"
+          >
+            Consult a Doctor
+          </a>
+        </div>
       </div>
     </section>
   )

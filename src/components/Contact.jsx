@@ -1,3 +1,4 @@
+import contactImage from '../assets/hero0.jpeg';
 export default function Contact() {
   return (
     <section id="contact" className="w-full bg-gray-100">
@@ -6,18 +7,17 @@ export default function Contact() {
           Contact Us
         </h3>
         <p className="text-base sm:text-lg mb-4">
-          📍 Kanyi Apartments, Kenya Israel<br />
+          📍 Kanyi Apartments, Kenya Israel
+          <br />
           (Next to National Oil Petrol Station)
         </p>
-        <p className="text-base sm:text-lg mb-6">
-          📞 0113678958 / 0704478783
-        </p>
+        <p className="text-base sm:text-lg mb-6">📞 0113678958 / 0704478783</p>
         <img
-          src="https://via.placeholder.com/800x300?text=Map+Placeholder"
+          src={contactImage}
           alt="Map"
           className="w-full max-w-3xl mx-auto rounded-lg shadow"
         />
       </div>
     </section>
-  )
+  );
 }
