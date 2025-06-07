@@ -26,15 +26,12 @@ export default function Gynaecology() {
           </ul>
         </div>
         <div>
-          <h3 className="text-lg font-semibold text-blue-800 mb-2">Clinic Operation Hours</h3>
+          <h3 className="text-lg font-semibold text-blue-800 mb-2">Clinic Locations</h3>
           <ul className="list-disc list-inside text-blue-900">
-            <li><a href="https://thenairobihosp.org/outpatient-center/galleria-mall" className="hover:underline" target="_blank" rel="noopener noreferrer">Galleria Outpatient Centre</a></li>
-            <li><a href="https://thenairobihosp.org/outpatient-center/warwick-centre" className="hover:underline" target="_blank" rel="noopener noreferrer">Warwick Outpatient Centre</a></li>
-            <li><a href="https://thenairobihosp.org/outpatient-center/capital-centre" className="hover:underline" target="_blank" rel="noopener noreferrer">Capital Centre</a></li>
-            <li><a href="https://thenairobihosp.org/outpatient-center/southfield-mall%20" className="hover:underline" target="_blank" rel="noopener noreferrer">Southfield Mall</a></li>
-            <li><a href="https://thenairobihosp.org/outpatient-center/kiambu-mall" className="hover:underline" target="_blank" rel="noopener noreferrer">Kiambu Mall</a></li>
-            <li><a href="https://thenairobihosp.org/outpatient-center/rosslyn-riviera" className="hover:underline" target="_blank" rel="noopener noreferrer">Rosslyn Riviera</a></li>
-            <li><a href="https://thenairobihosp.org/clinical-services/accident-and-emergency-services" className="hover:underline" target="_blank" rel="noopener noreferrer">Chandaria Accident & Emergency Centre</a></li>
+            <li>Main Hospital, Ongata Rongai</li>
+            <li>Gatutha House, Nairobi</li>
+            <li>Machakos Clinic, Kenya Israel Kanyi Apartments</li>
+            <li>Meru Runogone</li>
           </ul>
         </div>
       </section>

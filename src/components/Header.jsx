@@ -35,7 +35,7 @@ export default function Header() {
               className="h-10 w-auto cursor-pointer"
             />
           </Link>
-          <span className="hidden lg:inline text-xl sm:text-2xl font-bold text-blue-900 tracking-wide">
+          <span className="text-xl sm:text-2xl font-bold text-blue-900 tracking-wide">
             British Family Hospital
           </span>
         </div>

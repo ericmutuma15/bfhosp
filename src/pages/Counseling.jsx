@@ -21,15 +21,12 @@ export default function Counseling() {
           </ul>
         </div>
         <div>
-          <h3 className="text-lg font-semibold text-blue-800 mb-2">Clinic Operation Hours</h3>
+          <h3 className="text-lg font-semibold text-blue-800 mb-2">Clinic Locations</h3>
           <ul className="list-disc list-inside text-blue-900">
-            <li>Galleria Outpatient Centre</li>
-            <li>Warwick Outpatient Centre</li>
-            <li>Capital Centre</li>
-            <li>Southfield Mall</li>
-            <li>Kiambu Mall</li>
-            <li>Rosslyn Riviera</li>
-            <li>Chandaria Accident & Emergency Centre</li>
+            <li>Main Hospital, Ongata Rongai</li>
+            <li>Gatutha House, Nairobi</li>
+            <li>Machakos Clinic, Kenya Israel Kanyi Apartments</li>
+            <li>Meru Runogone</li>
           </ul>
         </div>
       </section>
