@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import OutpatientClinics from './components/OutpatientClinics'
+import CleanHandsAdvert from './components/CleanHandsAdvert'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 // Service pages
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/" element={
             <>
               <Hero />
+              <CleanHandsAdvert />
               <Services />
               <OutpatientClinics />
               <Contact />
